@@ -200,7 +200,6 @@ class HierarchicalLDA(object):
             if (s > 0) and ((s+1) % display_topics == 0):
                 print(" %d" % (s+1))
                 self.print_nodes(n_words, with_weights)
-                print
 
     def sample_path(self, d):
 
